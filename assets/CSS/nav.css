@@ -1,0 +1,47 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top: 0;
+    /* right: 0; */
+    height: 50px;
+    /* left: 0; */
+    width: 100%;
+    padding: 3px 0;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    background-color: white;
+  }
+  .links {
+   display: flex;
+   padding: 15px;
+  }
+  
+ .left-section {
+    flex: 1;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+ }
+  
+ .midle-section { 
+    padding: 5px;
+    font-size: 20px;
+ }
+
+ .right-section {
+    padding: 5px;
+    align-items: center;
+    font-size: 20px;
+ }
+
+ @media screen and (max-width: 640px) {
+   .left-section {
+      display: none;
+   }
+ }
+
+ 
+ 
