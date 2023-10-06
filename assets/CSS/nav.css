@@ -3,9 +3,7 @@
     flex-direction: row;
     position:fixed;
     top: 0;
-    /* right: 0; */
     height: 50px;
-    /* left: 0; */
     width: 100%;
     padding: 3px 0;
     justify-content: space-between;
@@ -13,6 +11,7 @@
     align-items: center;
     background-color: white;
   }
+  
   .links {
    display: flex;
    padding: 15px;
