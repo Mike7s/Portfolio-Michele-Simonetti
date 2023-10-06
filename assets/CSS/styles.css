@@ -17,10 +17,6 @@ p{
   margin-top: 30px;
 }
 
-.logo-1{
-    padding-left: 20px;
-}
-
 a:hover {
    background-color: lightcyan;
    opacity: 0,8;
@@ -72,12 +68,11 @@ a{
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
-
  }
 
 .portfolio {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 120px;
@@ -85,12 +80,18 @@ a{
 
  .work{
   display: flex;
-  width: 80%;
   height: 200px;
   border: 1ps solid;
   margin: 30px;
-  padding: 20px;
   background-color: whitesmoke;
+ }
+
+ .contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
  }
 
  .social
@@ -169,6 +170,7 @@ border: 1px solid;
 .img-title{
   width: 50px;
   height: 50px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 640px) {
