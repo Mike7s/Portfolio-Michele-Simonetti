@@ -166,6 +166,9 @@ a:hover, a:active {
 .cont {
   flex-direction: column;
 }
+body {
+  margin: 0 auto;
+}
 
 .col-s {
   padding: 15px;
