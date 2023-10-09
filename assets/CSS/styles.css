@@ -126,10 +126,10 @@ a:hover, a:active {
   color: grey;
 }
 
-#name,
-#phone,
-#email,
-#message{
+.name,
+.phone,
+.email,
+.message{
   width: 200px;
   padding: 13px;
   border-radius: 5px;
