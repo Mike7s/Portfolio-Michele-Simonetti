@@ -147,7 +147,7 @@ a:hover, a:active {
  }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 375px) {
 
 .cont {
   flex-direction: column;
@@ -166,9 +166,6 @@ a:hover, a:active {
 .cont {
   flex-direction: column;
 }
-body {
-  margin: 0 auto;
-}
 
 .col-s {
   padding: 15px;
@@ -176,6 +173,8 @@ body {
   margin-top: 15px;
 }
 
+h1{
+font-size: 60px;
 }
 
-
+}
