@@ -5,41 +5,32 @@
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
-  
-body{ 
+
+body{
   padding-top: 60px;
 }
 
 p{
   text-align: center;
-  font-size: 25px;
-  color: #9DB5B2;
+  font-size: 30px;
+  color: grey;
   margin-top: 30px;
 }
 
 a:hover {
-   background-color: lightcyan;
+   color: #FFD670;
    opacity: 0,8;
   }
 
 button:hover {
     background-color: #DAF0EE;
  }
-  
 
 a{
-    text-decoration: none; 
+    text-decoration: none;
  }
-
-.cont {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; 
-  width: 80%;
-  margin: 0% auto;
-  padding: 10px;
-  margin-bottom: 120px;
+ .text-header{
+  margin-bottom:250px;
  }
 
 .bio{
@@ -51,13 +42,40 @@ a{
   margin-bottom: 40px;
  }
 
+ .cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0% auto;
+  padding: 10px;
+  margin-bottom: 120px;
+ }
+
+ .col-s {
+  height: 100%;
+  /* border-radius: 20px; */
+  /* border: solid 2px; */
+  width:500px;
+  padding: 15px;
+  margin-left: 150px;
+  margin-top: 40px;
+  /* background-color:#FFD670; */
+}
+
+.col-sm{
+  height: 100%;
+  width: 300px;
+}
+
  .tools{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top:180px;
-  margin-bottom: 20px;
+  padding-top:  80px;
+  padding-bottom: 40px;
  }
 
 .tools-content {
@@ -65,6 +83,7 @@ a{
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
+  padding-bottom: 30px;
  }
 
 .portfolio {
@@ -72,7 +91,7 @@ a{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  padding-top: 180px;
  }
 
  .work{
@@ -88,7 +107,7 @@ a{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  padding-top: 180px;
  }
 
  .social
@@ -108,11 +127,16 @@ a{
   color: grey;
 }
 
+.form:invalid{
+    border: 2px solid #D55C5F;
+    color: #D55C5F;
+}
+
 .name,
 .phone,
 .email,
 .message{
-  width: 200px; 
+  width: 200px;
   padding: 13px;
   border-radius: 5px;
   margin: 10px;
@@ -128,21 +152,6 @@ a{
   font-size: 16px;
  }
 
-.col-s {
-  height: 100%;
-  border-radius: 20px;
-  border: solid 2px;
-  width:500px;
-  padding: 15px;
-  margin-left: 150px;
-  background-color: #DAF0EE;
-}
-
-.col-sm{
-  height: 100%;
-  width: 300px;
-}
-
 .row {
   display: flex;
   align-items: center;
@@ -152,9 +161,9 @@ a{
 
 @media screen and (max-width: 640px) {
 
-.cont { 
+.cont {
   flex-direction: column;
-  
+
 }
 .col-s {
   width:300px;
@@ -177,5 +186,5 @@ a{
 }
 
 }
-  
- 
+
+
