@@ -2,7 +2,7 @@
   text-align: center;
   color:#1D3461;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   font-family: 'Montserrat', sans-serif;
   padding-top: 140px;
   padding-bottom: 60px;
@@ -15,5 +15,11 @@
    color: #FF9770;
   }
   
+  @media screen and (max-width: 375px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
 
   
