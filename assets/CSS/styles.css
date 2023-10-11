@@ -52,15 +52,15 @@ a:hover, a:active {
   margin-bottom: 120px;
  }
 
- .col-s {
-  /* height: 100%; */
-  width:500px;
+ .cont-text-bio{
+  height: 100%; 
+  /* width:500px; */
   padding: 15px;
   margin-left: 150px;
   margin-top: 40px;
 }
 
-.col-sm{
+.cont-img-bio{
   height: 100%;
   width: 300px;
 }
@@ -155,7 +155,7 @@ a:hover, a:active {
 }
 
 
-.col-s {
+.cont-text-bio {
   padding: 15px;
   margin: 0%;
   margin-top: 15px;
@@ -169,7 +169,7 @@ a:hover, a:active {
   flex-direction: column;
 }
 
-.col-s {
+.cont-text-bio {
   padding: 15px;
   margin: 0%;
   margin-top: 15px;
