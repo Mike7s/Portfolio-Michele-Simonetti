@@ -66,4 +66,14 @@
     font-size: 17px;
     color: grey;
   }
+
+  @media screen and (max-width: 375px)  {
+    .homepage {
+   
+    }
+    .paragraph {
+      flex-direction: column;
+      
+    }
+  }
   
