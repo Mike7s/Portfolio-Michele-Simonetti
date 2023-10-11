@@ -146,10 +146,6 @@ a:hover, a:active {
 
 @media screen and (max-width: 375px) {
 
- .contact {
-  width: 30%;
- }
-
 .cont {
   flex-direction: column;
 }
