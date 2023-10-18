@@ -67,7 +67,13 @@
    }
 
    .nav-bar{
-      position:fixed;
+      width: 390px;
+      position:-webkit-sticky;
+      position: sticky;
       }
+
+   .image-work{
+      width: 50px;
+   }
 
  }

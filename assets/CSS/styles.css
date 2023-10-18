@@ -174,9 +174,8 @@ a:hover, a:active {
   margin-top: 15px;
 }
 
-.work {
-  margin:0;
+.work{
+  margin: 0;
+  margin-left: 10px;
 }
-  
-
 }
