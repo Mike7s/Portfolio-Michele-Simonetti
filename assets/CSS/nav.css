@@ -67,17 +67,7 @@
    }
 
    .nav-bar{
-      display: flex;
-      flex-direction: row;
       position:fixed;
-      top: 0;
-      height: 50px;
-      width: 100%;
-      padding: 3px 0;
-      justify-content: space-between;
-      font-family: 'Montserrat', sans-serif;
-      align-items: center;
-      background-color: #1D3461;
       }
 
  }

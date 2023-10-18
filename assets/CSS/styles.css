@@ -161,7 +161,6 @@ a:hover, a:active {
   margin-top: 15px;
 }
 
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -174,5 +173,10 @@ a:hover, a:active {
   margin: 0%;
   margin-top: 15px;
 }
+
+.work {
+  margin:0;
+}
+  
 
 }
