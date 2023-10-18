@@ -6,9 +6,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
-body{
-  width: 100%;
-}
+
 
 p{
   text-align: center;
@@ -163,15 +161,8 @@ a:hover, a:active {
   margin-top: 15px;
 }
 
- .work-one { 
-  width: 80px;
-  height: 80px;
- } 
-
-
 
 }
-
 
 @media screen and (max-width: 1200px) {
 .cont {
