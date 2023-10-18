@@ -6,9 +6,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
-body{
-  padding-top: 60px;
-}
+
 
 p{
   text-align: center;
@@ -53,8 +51,7 @@ a:hover, a:active {
  }
 
  .cont-text-bio{
-  height: 100%; 
-  /* width:500px; */
+  height: 100%;
   padding: 15px;
   margin-left: 150px;
   margin-top: 40px;
@@ -92,10 +89,17 @@ a:hover, a:active {
 
  .work{
   display: flex;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 300px;
   border: 1ps solid;
-  margin: 30px;
   background-color: whitesmoke;
+ }
+
+ .work-one{
+  border:1px solid lightgrey;
+  border-radius: 4px;
  }
 
  .contact{
@@ -144,18 +148,23 @@ a:hover, a:active {
  }
 
 
+
 @media screen and (max-width: 375px) {
 
 .cont {
   flex-direction: column;
 }
 
-
 .cont-text-bio {
   padding: 15px;
   margin: 0%;
   margin-top: 15px;
 }
+
+ .work-one { 
+  width: 80px;
+  height: 80px;
+ } 
 
 }
 

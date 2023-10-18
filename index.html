@@ -20,17 +20,22 @@
 </head>
 
 <body>
-  <header>
-
-    <div class="nav-bar">
-
+  <!-- <header> -->
+    <nav class="nav-bar">
       <img class="img-logo" src="assets/Img/logo1.png">
       <div class="left-section"> Michele Simonetti</div>
-      <div class="links">
-        <div class="midle-section"> <a href="index.html"> Home </a> </div>
-        <div class="right-section"> <a href="about.html">About me</a> </div>
+      <div class="link"> 
+        <ul>
+          <li>
+              <a href="#">menu &#9662</a>
+              <ul class="dropdown">
+                  <li> <a href="index.html" rel="noopener" target="_blank"> Home </a> </li>
+                  <li> <a href="about.html" rel="noopener" target="_blank">About me</a> </li>
+              </ul>
+          </li>
+      </ul>
       </div>
-    </div>
+    </nav>
     
     <div class="text-header">
     <h1>MICHELE SIMONETTI</h1>
@@ -103,13 +108,18 @@
 
       <p>Check out my latest work</p>
    
-      <div class="work">
-      
+    <div class="work">
+      <div class="work-one">
+      <a href="https://mike7s.github.io/Portfolio-Michele-Simonetti/index.html" target="_blank" rel="noopener">  
+      <img class="image-work" src="assets/Img/sfondo.png" alt="work-in-progress">
+      </a>
       </div>
+    </div>
+
   </section>
 
-  
   <section id="Contact-list">
+
   <div class="contact">
     <h2> Contact </h2>
     <img class="img" src="assets/Img/contact(1).png" alt="image-contact">
@@ -159,13 +169,13 @@
       <div class="form">
 
         <label for="name">name</label>
-        <input class=name name="username" type="text" placeholder="enter your name ">
+        <input class=name name="username" type="text" placeholder="enter your name " required>
 
         <label for="phone">phone</label>
-        <input class="phone" name="phone" type="text" placeholder="enter your phone number">
+        <input class="phone" name="phone" type="text" placeholder="enter your phone number" required>
 
         <label for="email"> email</label>
-        <input class="email" name="email" id="email" type="text" placeholder="Enter your email">
+        <input class="email" name="email" id="email" type="text" placeholder="Enter your email" required>
 
         <label for="message">message</label>
         <textarea class="message" name="message" cols="30" rows="10" placeholder="enter your message "></textarea>
