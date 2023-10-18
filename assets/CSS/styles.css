@@ -148,7 +148,6 @@ a:hover, a:active {
  }
 
 
-
 @media screen and (max-width: 375px) {
 
 .cont {
@@ -159,6 +158,10 @@ a:hover, a:active {
   padding: 15px;
   margin: 0%;
   margin-top: 15px;
+}
+
+.social{
+  flex-wrap: wrap;
 }
 
 }
@@ -178,4 +181,5 @@ a:hover, a:active {
   margin: 0;
   margin-left: 10px;
 }
+
 }

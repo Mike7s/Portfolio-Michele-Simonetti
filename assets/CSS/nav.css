@@ -67,9 +67,9 @@
    }
 
    .nav-bar{
-      width: 390px;
       position:-webkit-sticky;
       position: sticky;
+      width: 100%;
       }
 
    .image-work{

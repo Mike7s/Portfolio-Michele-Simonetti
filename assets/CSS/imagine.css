@@ -27,7 +27,8 @@
 }
 
 .image-work{
-    width: 350px;
+    width: 100%px;
+    max-width: 350px;
     height:250px;
     box-shadow: 10px 10px 10px lightgray;
 }
