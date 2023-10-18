@@ -94,6 +94,7 @@ a:hover, a:active {
   margin: 20px;
   height: 300px;
   border: 1ps solid;
+  width: 100%;
   background-color: whitesmoke;
  }
 
@@ -163,7 +164,10 @@ a:hover, a:active {
 .social{
   flex-wrap: wrap;
 }
-
+.image-work{
+  width: 100%;
+  height: auto;
+}
 }
 
 @media screen and (max-width: 1200px) {
