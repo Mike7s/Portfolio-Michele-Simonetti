@@ -32,6 +32,13 @@ a:hover, a:active {
   margin-bottom:200px;
  }
 
+ .navbar-menu{
+  color: #FF9770;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 12px;
+ }
+
 .bio{
   display: flex;
   flex-direction: row;
