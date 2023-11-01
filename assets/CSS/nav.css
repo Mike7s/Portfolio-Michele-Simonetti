@@ -20,7 +20,6 @@
     .navbar-menu{
       height: 100%;
       color: #FF9770;
-      background-color: #1D3461;
       font-size: 22px;
       display: flex;
       justify-content: center;
@@ -53,22 +52,22 @@
       font-size: 20px;
    }
 
-  ul li ul.dropdown li {
+    ul.dropdown li {
       display: block;
       background-color: #1D3461;
     
    }
 
-  ul li ul.dropdown {
+    ul.dropdown {
       position: absolute;
       display: none;
    }
 
-  ul li a:hover {
+   a:hover {
       background:  #1D3461;
    }
 
-  ul li:hover ul.dropdown {
+   .link:hover ul.dropdown {
       display: block;
    }
 
