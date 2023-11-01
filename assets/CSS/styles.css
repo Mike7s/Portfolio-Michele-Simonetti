@@ -32,12 +32,6 @@ a:hover, a:active {
   margin-bottom:200px;
  }
 
- .navbar-menu{
-  color: #FF9770;
-  background-color: transparent;
-  font-size: 22px;
-  padding: 11px;
- }
 
 .bio{
   display: flex;
@@ -101,7 +95,6 @@ a:hover, a:active {
   margin: 20px;
   height: 300px;
   border: 1ps solid;
-  width: 100%;
   background-color: whitesmoke;
  }
 
