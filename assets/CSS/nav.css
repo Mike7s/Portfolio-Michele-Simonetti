@@ -26,7 +26,7 @@
       align-items: center;
      }
 
-     .img-logo {
+   .img-logo {
       width: 80px;
       object-fit: cover;
       border: none;
@@ -43,9 +43,9 @@
       list-style: none;
    }
 
-  ul li a {
+   ul li a {
       display: block;
-      padding: 12px 0 12px 12px;
+      padding: 12px;
       color: #fff;
       text-decoration: none;
       text-align: center;
@@ -60,10 +60,11 @@
 
     ul.dropdown {
       position: absolute;
+      right: 0;
       display: none;
    }
 
-   a:hover {
+   .dropdown li a:hover {
       background:  #1D3461;
    }
 
