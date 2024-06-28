@@ -6,44 +6,46 @@
   <link rel="icon" type="image/x-icon" href="assets/Img/favicon.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Michele Simonetti Portfolio"/>
-  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Michele Simonetti Portfolio" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="https://mike7s.github.io/Portfolio-Michele-Simonetti/index.html" />
-  <meta property="og:image" content="assets/img/profiles.jpeg"/>
-  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image" content="assets/img/profiles.jpeg" />
+  <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="300" />
   <link rel="stylesheet" href="assets/CSS/styles.css">
   <link rel="stylesheet" href="assets/CSS/title.css">
   <link rel="stylesheet" href="assets/CSS/nav.css">
   <link rel="stylesheet" href="assets/CSS/imagine.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-  
-    <nav class="nav-bar">
-      <a href="index.html" target="_blank" rel="noopener"><img class="img-logo" src="assets/Img/logo1.png"></a> 
-      <div class="left-section"> Michele Simonetti</div>
-      <div class="link"> 
- 
-              <div class="navbar-menu">Menu &#9662</div>
-              <ul class="dropdown">
-                  <li> <a href="index.html" rel="noopener" target="_blank"> Home </a> </li>
-                  <li> <a href="about.html" rel="noopener" target="_blank">About me</a> </li>
-              </ul>
 
-      </div>
-    </nav>
-    
-    <div class="text-header">
+  <nav class="nav-bar">
+    <a href="index.html" target="_blank" rel="noopener"><img class="img-logo" src="assets/Img/logo1.png"></a>
+    <div class="left-section"> Michele Simonetti</div>
+    <div class="link">
+
+      <div class="navbar-menu">Menu &#9662</div>
+      <ul class="dropdown">
+        <li> <a href="index.html" rel="noopener" target="_blank"> Home </a> </li>
+        <li> <a href="about.html" rel="noopener" target="_blank">About me</a> </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="text-header">
     <h1>MICHELE SIMONETTI</h1>
-    
+
     <h2>Full stack development</h2>
     <p>Hi,I'm Mike.
       <br>
       you're welcome!
     </p>
-    </div>
+  </div>
 
   <section id="home">
 
@@ -54,21 +56,21 @@
 
     <div class="cont">
 
-        <div class="cont-img-bio">
-          <img class="image-profile" src="assets/Img/profiles.jpeg" alt="image-profile">
+      <div class="cont-img-bio">
+        <img class="image-profile" src="assets/Img/profiles.jpeg" alt="image-profile">
 
-        </div>
+      </div>
 
-        <div class="cont-text-bio">
-          <p>Hello! <br>
-            I'm Michele Simonetti, and I'm studying to become a full stack developer with S2I.</p>
+      <div class="cont-text-bio">
+        <p>Hello! <br>
+          I'm Michele Simonetti, and I'm studying to become a full stack developer with S2I.</p>
 
-          <p>I'm keen on programming and I'm really creative into it.
-             I am also considered a troubleshooter and a problem solver. <br>
-            I enjoy spending time in nature, it helps me relieve stress and boost my creativity. </p>
-          
-          <p> Moreover I love watching and playing football. 
-          </p>
+        <p>I'm keen on programming and I'm really creative into it.
+          I am also considered a troubleshooter and a problem solver. <br>
+          I enjoy spending time in nature, it helps me relieve stress and boost my creativity. </p>
+
+        <p> Moreover I love watching and playing football.
+        </p>
       </div>
     </div>
 
@@ -98,15 +100,35 @@
     <div class="portfolio">
       <h2> Portfolio </h2>
       <img class="img-logo" src="assets/Img/portfolio.png" alt="image-portfolio">
+
     </div>
 
-      <p>Check out my latest work</p>
-   
+    <p>Check out my latest work</p>
+
     <div class="work">
-      <div class="work-one">
-      <a href="https://mike7s.github.io/Portfolio-Michele-Simonetti/index.html" target="_blank" rel="noopener">  
-      <img class="image-work" src="assets/Img/sfondo.png" alt="work-in-progress">
-      </a>
+     
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://found-image.vercel.app/" target="_blank" rel="noopener">
+              <img class="image-work" src="assets/Img/foundImage.png" alt="work-in-progress">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Img/portfolio.png" class=" " alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
 
@@ -114,12 +136,12 @@
 
   <section id="Contact-list">
 
-  <div class="contact">
-    <h2> Contact </h2>
-    <img class="img" src="assets/Img/contact(1).png" alt="image-contact">
-  </div>
+    <div class="contact">
+      <h2> Contact </h2>
+      <img class="img" src="assets/Img/contact(1).png" alt="image-contact">
+    </div>
 
-    <p>  Contact me for any questions or requests,
+    <p> Contact me for any questions or requests,
       <br>
       and I will be happy to get back to you as soon as possible
       <br>
@@ -153,28 +175,32 @@
     </div>
   </section>
 
-    <form>
-      <div class="form">
+  <form>
+    <div class="form">
 
-        <label for="name">name</label>
-        <input class=name name="username" type="text" placeholder="enter your name " required>
+      <label for="name">name</label>
+      <input class=name name="username" type="text" placeholder="enter your name " required>
 
-        <label for="phone">phone</label>
-        <input class="phone" name="phone" type="text" placeholder="enter your phone number" required>
+      <label for="phone">phone</label>
+      <input class="phone" name="phone" type="text" placeholder="enter your phone number" required>
 
-        <label for="email"> email</label>
-        <input class="email" name="email" id="email" type="text" placeholder="Enter your email" required>
+      <label for="email"> email</label>
+      <input class="email" name="email" id="email" type="text" placeholder="Enter your email" required>
 
-        <label for="message">message</label>
-        <textarea class="message" name="message" cols="30" rows="10" placeholder="enter your message "></textarea>
+      <label for="message">message</label>
+      <textarea class="message" name="message" cols="30" rows="10" placeholder="enter your message "></textarea>
 
-        <button type="submit" class="submit"> send message</button>
+      <button type="submit" class="submit"> send message</button>
 
-      </div>
-    </form>
+    </div>
+  </form>
+
 
   <p>© 2023 Mike. All rights reserved.</p>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -89,13 +89,18 @@ a:hover, a:active {
  }
 
  .work{
+  height: 300px;
   display: flex;
   justify-content: center;
-  align-items: center;
+   align-items: center;
   margin: 20px;
-  height: 300px;
   border: 1ps solid;
-  background-color: whitesmoke;
+  background-color: whitesmoke;  
+ }
+
+ .work img{
+  height: 300px;
+
  }
 
  .work-one{
